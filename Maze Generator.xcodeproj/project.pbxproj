@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC238AF2543D50A0056414E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238AE2543D50A0056414E /* AppDelegate.swift */; };
+		1DC238B12543D50A0056414E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238B02543D50A0056414E /* ViewController.swift */; };
+		1DC238B32543D5160056414E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC238B22543D5160056414E /* Assets.xcassets */; };
+		1DC238B62543D5160056414E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC238B42543D5160056414E /* Main.storyboard */; };
+		1DC238C22543D5170056414E /* Maze_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238C12543D5170056414E /* Maze_GeneratorTests.swift */; };
+		1DC238CD2543D5170056414E /* Maze_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238CC2543D5170056414E /* Maze_GeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DC238BE2543D5170056414E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC238A32543D50A0056414E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC238AA2543D50A0056414E;
+			remoteInfo = "Maze Generator";
+		};
+		1DC238C92543D5170056414E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC238A32543D50A0056414E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC238AA2543D50A0056414E;
+			remoteInfo = "Maze Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DC238AB2543D50A0056414E /* Maze Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maze Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC238AE2543D50A0056414E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DC238B02543D50A0056414E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DC238B22543D5160056414E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC238B52543D5160056414E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DC238B72543D5160056414E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC238B82543D5160056414E /* Maze_Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Maze_Generator.entitlements; sourceTree = "<group>"; };
+		1DC238BD2543D5170056414E /* Maze GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC238C12543D5170056414E /* Maze_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze_GeneratorTests.swift; sourceTree = "<group>"; };
+		1DC238C32543D5170056414E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC238C82543D5170056414E /* Maze GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC238CC2543D5170056414E /* Maze_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze_GeneratorUITests.swift; sourceTree = "<group>"; };
+		1DC238CE2543D5170056414E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC238A82543D50A0056414E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC238BA2543D5170056414E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC238C52543D5170056414E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC238A22543D50A0056414E = {
+			isa = PBXGroup;
+			children = (
+				1DC238AD2543D50A0056414E /* Maze Generator */,
+				1DC238C02543D5170056414E /* Maze GeneratorTests */,
+				1DC238CB2543D5170056414E /* Maze GeneratorUITests */,
+				1DC238AC2543D50A0056414E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC238AC2543D50A0056414E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC238AB2543D50A0056414E /* Maze Generator.app */,
+				1DC238BD2543D5170056414E /* Maze GeneratorTests.xctest */,
+				1DC238C82543D5170056414E /* Maze GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC238AD2543D50A0056414E /* Maze Generator */ = {
+			isa = PBXGroup;
+			children = (
+				1DC238AE2543D50A0056414E /* AppDelegate.swift */,
+				1DC238B02543D50A0056414E /* ViewController.swift */,
+				1DC238B22543D5160056414E /* Assets.xcassets */,
+				1DC238B42543D5160056414E /* Main.storyboard */,
+				1DC238B72543D5160056414E /* Info.plist */,
+				1DC238B82543D5160056414E /* Maze_Generator.entitlements */,
+			);
+			path = "Maze Generator";
+			sourceTree = "<group>";
+		};
+		1DC238C02543D5170056414E /* Maze GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC238C12543D5170056414E /* Maze_GeneratorTests.swift */,
+				1DC238C32543D5170056414E /* Info.plist */,
+			);
+			path = "Maze GeneratorTests";
+			sourceTree = "<group>";
+		};
+		1DC238CB2543D5170056414E /* Maze GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC238CC2543D5170056414E /* Maze_GeneratorUITests.swift */,
+				1DC238CE2543D5170056414E /* Info.plist */,
+			);
+			path = "Maze GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC238AA2543D50A0056414E /* Maze Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC238D12543D5170056414E /* Build configuration list for PBXNativeTarget "Maze Generator" */;
+			buildPhases = (
+				1DC238A72543D50A0056414E /* Sources */,
+				1DC238A82543D50A0056414E /* Frameworks */,
+				1DC238A92543D50A0056414E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maze Generator";
+			productName = "Maze Generator";
+			productReference = 1DC238AB2543D50A0056414E /* Maze Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DC238BC2543D5170056414E /* Maze GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC238D42543D5170056414E /* Build configuration list for PBXNativeTarget "Maze GeneratorTests" */;
+			buildPhases = (
+				1DC238B92543D5170056414E /* Sources */,
+				1DC238BA2543D5170056414E /* Frameworks */,
+				1DC238BB2543D5170056414E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC238BF2543D5170056414E /* PBXTargetDependency */,
+			);
+			name = "Maze GeneratorTests";
+			productName = "Maze GeneratorTests";
+			productReference = 1DC238BD2543D5170056414E /* Maze GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DC238C72543D5170056414E /* Maze GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC238D72543D5170056414E /* Build configuration list for PBXNativeTarget "Maze GeneratorUITests" */;
+			buildPhases = (
+				1DC238C42543D5170056414E /* Sources */,
+				1DC238C52543D5170056414E /* Frameworks */,
+				1DC238C62543D5170056414E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC238CA2543D5170056414E /* PBXTargetDependency */,
+			);
+			name = "Maze GeneratorUITests";
+			productName = "Maze GeneratorUITests";
+			productReference = 1DC238C82543D5170056414E /* Maze GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC238A32543D50A0056414E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Stephen Plevier";
+				TargetAttributes = {
+					1DC238AA2543D50A0056414E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					1DC238BC2543D5170056414E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1DC238AA2543D50A0056414E;
+					};
+					1DC238C72543D5170056414E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1DC238AA2543D50A0056414E;
+					};
+				};
+			};
+			buildConfigurationList = 1DC238A62543D50A0056414E /* Build configuration list for PBXProject "Maze Generator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC238A22543D50A0056414E;
+			productRefGroup = 1DC238AC2543D50A0056414E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC238AA2543D50A0056414E /* Maze Generator */,
+				1DC238BC2543D5170056414E /* Maze GeneratorTests */,
+				1DC238C72543D5170056414E /* Maze GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC238A92543D50A0056414E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC238B32543D5160056414E /* Assets.xcassets in Resources */,
+				1DC238B62543D5160056414E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC238BB2543D5170056414E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC238C62543D5170056414E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC238A72543D50A0056414E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC238B12543D50A0056414E /* ViewController.swift in Sources */,
+				1DC238AF2543D50A0056414E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC238B92543D5170056414E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC238C22543D5170056414E /* Maze_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC238C42543D5170056414E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC238CD2543D5170056414E /* Maze_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DC238BF2543D5170056414E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC238AA2543D50A0056414E /* Maze Generator */;
+			targetProxy = 1DC238BE2543D5170056414E /* PBXContainerItemProxy */;
+		};
+		1DC238CA2543D5170056414E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC238AA2543D50A0056414E /* Maze Generator */;
+			targetProxy = 1DC238C92543D5170056414E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DC238B42543D5160056414E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC238B52543D5160056414E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DC238CF2543D5170056414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DC238D02543D5170056414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1DC238D22543D5170056414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Maze Generator/Maze_Generator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Maze Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vardogr.Maze-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1DC238D32543D5170056414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Maze Generator/Maze_Generator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Maze Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vardogr.Maze-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1DC238D52543D5170056414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Maze GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vardogr.Maze-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze Generator.app/Contents/MacOS/Maze Generator";
+			};
+			name = Debug;
+		};
+		1DC238D62543D5170056414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Maze GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vardogr.Maze-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze Generator.app/Contents/MacOS/Maze Generator";
+			};
+			name = Release;
+		};
+		1DC238D82543D5170056414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Maze GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vardogr.Maze-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Maze Generator";
+			};
+			name = Debug;
+		};
+		1DC238D92543D5170056414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Maze GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vardogr.Maze-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Maze Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC238A62543D50A0056414E /* Build configuration list for PBXProject "Maze Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC238CF2543D5170056414E /* Debug */,
+				1DC238D02543D5170056414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC238D12543D5170056414E /* Build configuration list for PBXNativeTarget "Maze Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC238D22543D5170056414E /* Debug */,
+				1DC238D32543D5170056414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC238D42543D5170056414E /* Build configuration list for PBXNativeTarget "Maze GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC238D52543D5170056414E /* Debug */,
+				1DC238D62543D5170056414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC238D72543D5170056414E /* Build configuration list for PBXNativeTarget "Maze GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC238D82543D5170056414E /* Debug */,
+				1DC238D92543D5170056414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DC238A32543D50A0056414E /* Project object */;
+}
