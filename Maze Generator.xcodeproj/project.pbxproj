@@ -13,6 +13,7 @@
 		1DC238B62543D5160056414E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC238B42543D5160056414E /* Main.storyboard */; };
 		1DC238C22543D5170056414E /* Maze_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238C12543D5170056414E /* Maze_GeneratorTests.swift */; };
 		1DC238CD2543D5170056414E /* Maze_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238CC2543D5170056414E /* Maze_GeneratorUITests.swift */; };
+		1DC238DB2543D6B20056414E /* MazeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC238DA2543D6B20056414E /* MazeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		1DC238C82543D5170056414E /* Maze GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC238CC2543D5170056414E /* Maze_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze_GeneratorUITests.swift; sourceTree = "<group>"; };
 		1DC238CE2543D5170056414E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC238DA2543D6B20056414E /* MazeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				1DC238AE2543D50A0056414E /* AppDelegate.swift */,
+				1DC238DA2543D6B20056414E /* MazeGenerator.swift */,
 				1DC238B02543D50A0056414E /* ViewController.swift */,
 				1DC238B22543D5160056414E /* Assets.xcassets */,
 				1DC238B42543D5160056414E /* Main.storyboard */,
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC238DB2543D6B20056414E /* MazeGenerator.swift in Sources */,
 				1DC238B12543D50A0056414E /* ViewController.swift in Sources */,
 				1DC238AF2543D50A0056414E /* AppDelegate.swift in Sources */,
 			);
@@ -421,7 +425,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Maze Generator/Maze_Generator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Maze Generator/Info.plist";
@@ -439,7 +442,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Maze Generator/Maze_Generator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Maze Generator/Info.plist";
