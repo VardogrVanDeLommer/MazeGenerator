@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Maze Generator
 //
-//  Created by Stephen Plevier on 24/10/20.
-//  Copyright © 2020 Stephen Plevier. All rights reserved.
+//  Created by Vardogr on 24/10/20.
+//  Copyright © 2020 Vardogr. All rights reserved.
 //
 
 import Cocoa
